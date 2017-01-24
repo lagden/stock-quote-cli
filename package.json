@@ -1,0 +1,70 @@
+{
+  "name": "lagden-stock-quote-cli",
+  "version": "1.0.0",
+  "description": "Cotações da Bolsa de Valores",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "stock",
+    "quote",
+    "search"
+  ],
+  "bug": {
+    "url": "https://github.com/lagden/stock-quote/issues",
+    "email": "lagden@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Thiago Lagden",
+    "email": "lagden@gmail.com",
+    "url": "http://lagden.in"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "license",
+    "man"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "cotacao": "./cli.js"
+  },
+  "man": "./man/cotacao.1",
+  "repository": "lagden/stock-quote-cli",
+  "scripts": {
+    "man": "mkdir -p man && remark doc/*.?.md",
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.17.0",
+    "remark-cli": "2.1.0",
+    "remark-man": "4.0.0",
+    "xo": "0.17.1"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "cli-table2": "0.2.0",
+    "commander": "2.9.0",
+    "lagden-stock-quote": "1.0.1"
+  },
+  "xo": {
+    "envs": [
+      "es6"
+    ],
+    "semicolon": false
+  },
+  "remarkConfig": {
+    "output": "man/cotacao.1",
+    "plugins": {
+      "remark-man": {
+        "name": "cotacao",
+        "date": "2017-01-25",
+        "manual": "cotacao manual",
+        "version": "1.0.0"
+      }
+    }
+  }
+}
