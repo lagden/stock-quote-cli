@@ -4,8 +4,8 @@
 [![Build Status][ci-img]][ci]
 [![XO code style][xo-img]][xo]
 
-[npm-img]:       https://img.shields.io/npm/v/stock-quote-cli.svg
-[npm]:           https://www.npmjs.com/package/stock-quote-cli
+[npm-img]:       https://img.shields.io/npm/v/lagden-stock-quote.svg
+[npm]:           https://www.npmjs.com/package/lagden-stock-quote
 [ci-img]:        https://travis-ci.org/lagden/stock-quote-cli.svg
 [ci]:            https://travis-ci.org/lagden/stock-quote-cli
 [xo-img]:        https://img.shields.io/badge/code_style-XO-5ed9c7.svg
@@ -23,7 +23,7 @@ Busca por informações de um papel na Bolsa de Valores
 #### Install
 
 ```
-$ npm i -g stock-quote-cli
+$ npm i -g lagden-stock-quote
 ```
 
 
