@@ -29,7 +29,7 @@ Output CLI version number.
 ## USAGE
 
 ```sh
-cotacao "vale5"
+cotacao "vale3"
 ```
 
 ## DIAGNOSTICS
