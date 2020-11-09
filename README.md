@@ -30,7 +30,7 @@ $ npm i -g lagden-stock-quote
 #### Usage
 
 ```
-$ cotacao "vale5"
+$ cotacao "vale3"
 ```
 
 
