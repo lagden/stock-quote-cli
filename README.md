@@ -24,14 +24,14 @@ Busca informações de um ativo na Bolsa de Valores.
 #### Install
 
 ```
-$ npm i -g lagden-stock-quote-cli
+npm i -g lagden-stock-quote-cli
 ```
 
 
 #### Usage
 
 ```
-$ cotacao "vale3"
+cotacao "vale3"
 ```
 
 

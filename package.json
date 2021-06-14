@@ -1,6 +1,6 @@
 {
   "name": "lagden-stock-quote-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Busca informações de um ativo na Bolsa de Valores.",
   "keywords": [
     "cli",
@@ -27,7 +27,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "cotacao": "./cli.js"
+    "cotacao": "src/cli.js"
   },
   "man": "./man/cotacao.1",
   "repository": "lagden/stock-quote-cli",
