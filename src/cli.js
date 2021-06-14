@@ -5,7 +5,7 @@ import Table from 'cli-table2'
 import chalk from 'chalk'
 import consulta from 'lagden-stock-quote'
 
-const version = '2.0.0'
+const version = '2.0.1'
 const _red = chalk.bold.red
 const _yellow = chalk.bold.yellow
 const _green = chalk.bold.green
