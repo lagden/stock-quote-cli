@@ -18,7 +18,7 @@ Busca informações de um ativo na Bolsa de Valores.
 
 ## CLI
 
-![Demo CLI](https://raw.githubusercontent.com/lagden/stock-quote-cli/master/demo.gif)
+<img src="https://raw.githubusercontent.com/lagden/stock-quote-cli/master/demo.gif" alt="Demo CLI" width="366" height="333" loading="lazy">
 
 
 #### Install
@@ -31,7 +31,7 @@ npm i -g lagden-stock-quote-cli
 #### Usage
 
 ```
-cotacao "vale3"
+cotacao vale3
 ```
 
 
