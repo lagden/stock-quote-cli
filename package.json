@@ -8,6 +8,7 @@
     "quote",
     "search"
   ],
+  "repository": "lagden/stock-quote-cli",
   "bug": {
     "url": "https://github.com/lagden/stock-quote/issues",
     "email": "lagden@gmail.com"
@@ -20,23 +21,19 @@
   "type": "module",
   "main": "src/cli.js",
   "files": [
-    "LICENSE",
-    "README.md",
     "src",
     "man"
   ],
-  "preferGlobal": true,
   "bin": {
     "cotacao": "src/cli.js"
   },
-  "man": "./man/cotacao.1",
-  "repository": "lagden/stock-quote-cli",
+  "man": "man/cotacao.1",
+  "engines": {
+    "node": ">=14.16.0"
+  },
   "scripts": {
     "man": "remark < doc/cotacao.md > man/cotacao.1",
     "test": "ava"
-  },
-  "engines": {
-    "node": ">=14.16.0"
   },
   "dependencies": {
     "chalk": "4.1.1",
