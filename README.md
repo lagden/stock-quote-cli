@@ -1,15 +1,16 @@
 # stock-quote-cli
 
 [![NPM version][npm-img]][npm]
-[![Build Status][ci-img]][ci]
+[![Node.js CI][ci-img]][ci]
+
 [![XO code style][xo-img]][xo]
 
-[npm-img]:       https://img.shields.io/npm/v/lagden-stock-quote.svg
-[npm]:           https://www.npmjs.com/package/lagden-stock-quote
-[ci-img]:        https://travis-ci.org/lagden/stock-quote-cli.svg
-[ci]:            https://travis-ci.org/lagden/stock-quote-cli
-[xo-img]:        https://img.shields.io/badge/code_style-XO-5ed9c7.svg
-[xo]:            https://github.com/sindresorhus/xo
+[npm-img]:         https://img.shields.io/npm/v/lagden-stock-quote-cli.svg
+[npm]:             https://www.npmjs.com/package/lagden-stock-quote-cli
+[ci-img]:          https://github.com/lagden/stock-quote-cli/workflows/Node.js%20CI/badge.svg
+[ci]:              https://github.com/lagden/stock-quote-cli/actions?query=workflow%3A%22Node.js+CI%22
+[xo-img]:          https://img.shields.io/badge/code_style-XO-5ed9c7.svg
+[xo]:              https://github.com/sindresorhus/xo
 
 
 Busca informações de um ativo na Bolsa de Valores.
@@ -23,7 +24,7 @@ Busca informações de um ativo na Bolsa de Valores.
 #### Install
 
 ```
-$ npm i -g lagden-stock-quote
+$ npm i -g lagden-stock-quote-cli
 ```
 
 
