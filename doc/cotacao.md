@@ -2,11 +2,11 @@
 
 ## SYNOPSIS
 
-`cotacao` \[`options`\] <_input_>
+`cotacao` \[`options`\] <_ativo_>
 
 ## DESCRIPTION
 
-Busca por informações de um papel na Bolsa de Valores
+Busca informações de um ativo na Bolsa de Valores.
 
 ## OPTIONS
 

@@ -1,13 +1,13 @@
-'use strict'
+import path from 'node:path'
+import {fileURLToPath} from 'node:url'
+import {spawn} from 'node:child_process'
+import test from 'ava'
 
-const {join} = require('path')
-const {spawn} = require('child_process')
-const test = require('ava')
-
-const bin = join(__dirname, '../cli.js')
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const cli = path.join(__dirname, '..', 'src', 'cli.js')
 
 test.cb('valid', t => {
-	spawn(bin, ['vale3'])
+	spawn(cli, ['vale3'])
 		.stdout
 		.on('data', buffer => {
 			t.regex(buffer.toString('utf8'), /BOV:VALE3/)
@@ -16,10 +16,10 @@ test.cb('valid', t => {
 })
 
 test.cb('invalid', t => {
-	spawn(bin, ['xxx'])
-		.stdout
+	spawn(cli, ['xxx'])
+		.stderr
 		.on('data', buffer => {
-			t.is(buffer.toString('utf8'), '✖ Cotação não encontrada.')
+			t.is(buffer.toString('utf8'), '✖ Ativo não encontrado.')
 			t.end()
 		})
 })

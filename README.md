@@ -12,7 +12,7 @@
 [xo]:            https://github.com/sindresorhus/xo
 
 
-Busca por informações de um papel na Bolsa de Valores
+Busca informações de um ativo na Bolsa de Valores.
 
 
 ## CLI
@@ -36,4 +36,4 @@ $ cotacao "vale3"
 
 ## License
 
-MIT © [Thiago Lagden](http://lagden.in)
+MIT © [Thiago Lagden](https://github.com/lagden)
