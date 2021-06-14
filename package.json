@@ -1,6 +1,6 @@
 {
   "name": "lagden-stock-quote-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Busca informações de um ativo na Bolsa de Valores.",
   "keywords": [
     "cli",
@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "chalk": "4.1.1",
-    "cli-table2": "0.2.0",
+    "cli-table": "0.3.6",
     "commander": "7.2.0",
     "lagden-stock-quote": "2.0.1"
   },
@@ -55,7 +55,7 @@
         "name": "cotacao",
         "date": "2017-01-25",
         "manual": "cotacao manual",
-        "version": "2.0.1"
+        "version": "2.0.2"
       }
     }
   }

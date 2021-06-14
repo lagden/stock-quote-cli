@@ -802,17 +802,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-table2@npm:0.2.0":
-  version: 0.2.0
-  resolution: "cli-table2@npm:0.2.0"
+"cli-table@npm:0.3.6":
+  version: 0.3.6
+  resolution: "cli-table@npm:0.3.6"
   dependencies:
-    colors: ^1.1.2
-    lodash: ^3.10.1
-    string-width: ^1.0.1
-  dependenciesMeta:
-    colors:
-      optional: true
-  checksum: 393ad3e633133dad5786dda845d4ecb0e14dbeaeca33f90fac35b2a13573adfbb4aebb6b03a90599601d623500efcea0e7d4d5ef21c1116e2a045a5b522701b7
+    colors: 1.0.3
+  checksum: 58a2449d55a3b5390b2578ef63f0591b56d034c3753b1fe47339b18e11ebc3134d234f49004b256cb60243219137328026cb60200fb5e1e19fe9c96967c5df7f
   languageName: node
   linkType: hard
 
@@ -901,10 +896,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colors@npm:^1.1.2":
-  version: 1.4.0
-  resolution: "colors@npm:1.4.0"
-  checksum: a0f266ac041a9774d92cc9624a984707678d2eeec125d54e8d8231075ce36c24c5352fb5d0f90c6ee420d0f63e354417cec716386ad341309334aad18e32b933
+"colors@npm:1.0.3":
+  version: 1.0.3
+  resolution: "colors@npm:1.0.3"
+  checksum: d5b1f35612744af0c24b1f80ec3bb8dccfb4a8441a1883d470295ac81ae8aef6f437ae05662595c1e0c98af27e1ad4e90ccd87f1a124cfc2b7953524f55fc951
   languageName: node
   linkType: hard
 
@@ -2196,13 +2191,13 @@ fsevents@~2.3.1:
   dependencies:
     ava: 3.15.0
     chalk: 4.1.1
-    cli-table2: 0.2.0
+    cli-table: 0.3.6
     commander: 7.2.0
     lagden-stock-quote: 2.0.1
     remark-cli: 9.0.0
     remark-man: 7.0.0
   bin:
-    cotacao: ./cli.js
+    cotacao: src/cli.js
   languageName: unknown
   linkType: soft
 
@@ -2283,13 +2278,6 @@ fsevents@~2.3.1:
   dependencies:
     p-locate: ^4.1.0
   checksum: c58f49d45c8672d0a290dea0ce41fcb27205b3f2d61452ba335ef3b42ad36c10c31b1f061b46d96dd4b81e9a00e8a2897bc124d75623b80a9f6d36b1e754a6b5
-  languageName: node
-  linkType: hard
-
-"lodash@npm:^3.10.1":
-  version: 3.10.1
-  resolution: "lodash@npm:3.10.1"
-  checksum: 0d90e79ce058c8d3e12a027a9fe7bc26107ec5c674c66bfe28c68931c12b7de2a5366477bd639adbf0e60407df3a259b77123c440e1fd2cec09ad1423b574a64
   languageName: node
   linkType: hard
 

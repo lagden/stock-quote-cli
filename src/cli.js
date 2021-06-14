@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 import program from 'commander'
-import Table from 'cli-table2'
+import Table from 'cli-table'
 import chalk from 'chalk'
 import consulta from 'lagden-stock-quote'
 
-const version = '2.0.1'
+const version = '2.0.2'
 const _red = chalk.bold.red
 const _yellow = chalk.bold.yellow
 const _green = chalk.bold.green
